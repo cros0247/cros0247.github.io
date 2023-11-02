@@ -3,22 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <title>cros0247-Midterm</title>
 </head>
+<!-- Whole webpage has margins on the left and right learend in week 6, to center the webpage into the center of page -->
 <body>
-    <!-- Whole webpage has margins on the left and right learend in week 6, to center the webpage into the center of page -->
+    <div class="wrapper"> 
+<!-- Header of webpage, title is layered ontop of picture of topic, centered at the lower portion of image   -->
+<!-- nav buttons in a row of a table for "HOME STORY CONTACT", nav is directly under the header of webpage  -->
+        <header>
+            <div class="headerstage">
+                <img class="redpanda1" src="images/redpanda1.jpg" alt="Red Panda">
+                <h1 class="sitetitle">The Red<br>Panda</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>HOME</li>
+                    <li>STORY</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </header>
+<!-- Article of topic with an intext image of topic on left side, heading of article directly above picture on left side-->
+        <main>
+            <article>
+                <h2> Life of a Red Panda</h2>
+                <div class="float clearfix">
+                    <img src="images/redopand2.jpg" alt="Red Panda 2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laudantium corrupti ratione fuga, nihil consequuntur voluptatum eius, saepe atque minima id suscipit laborum culpa qui illo modi totam et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsa exercitationem sapiente autem vitae, itaque aliquid, earum eaque voluptates ducimus veritatis consectetur assumenda error a officiis atque hic! Ratione, hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus ea quae error quibusdam delectus optio magnam vitae exercitationem libero. Nesciunt quia saepe ullam vel repellat aut in est necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas vero ut obcaecati ipsam, cum eaque recusandae perspiciatis labore voluptatem esse temporibus dolorum aliquam quibusdam ab accusantium impedit! Repellendus, eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos temporibus, incidunt esse doloribus ullam libero quod ipsum tempora quae. Ut provident sunt delectus tempore dignissimos? Molestias libero aspernatur beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis libero perferendis architecto voluptas impedit iure, ut cum totam nemo debitis numquam omnis quis odit, eos, est eligendi id laboriosam beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat eum, dolorem commodi alias, a aliquam similique quae quisquam magnam reiciendis nihil tenetur modi! Nisi in dignissimos libero porro perspiciatis? </p>
+                </div>
+            </article>
+<!-- facts: create an unordered list of facts with no left padding, with a heading above facts on left side  -->
+            <article>
+                <h3>Facts About Red Pandas</h3>
+                <ul>
+                    <li>They are red</li>
+                    <li>They are indeed a species of panda</li>
+                    <li>Not a black and white type of panda</li>
+                    <li>They are small</li>
+                </ul>
+            </article>
+<!-- Forms in order "name, email, message", the forms are in a div that is outlined in a black box, the heading "contact to learn more" is outside the box on the top left -->
+            <article>
+                <h3>Contact to Learn More</h3>
+                <form action="info.html" method="post" class="formbox">
+                    <div class="forms">
+                        <label for="fullname">Name:</label><br>
+                        <input id="fullname" type="text" name="fullname"><br>
 
-    <!-- Header of webpage, title is layered ontop of picture of topic, centered at the lower portion of image   -->
+                        <label for="email">Email:</label><br>
+                        <input id="email" type="email"><br>
 
-    <!-- nav buttons in a row of a table for "HOME STORY CONTACT", nav is directly under the header of webpage  -->
+                        <label for="message">Message:</label><br>
+                        <textarea name="message" id="message"></textarea><br> 
+                    </div>
 
-    <!-- Article of topic with an intext image of topic on left side, heading of article directly above picture on left side-->
+                    <p>Would you pet a Red Panda?</p>
+                    <label for="yes">Yes!</label>
+                    <input id="yes" type="radio" value="yes" name="likeness">
+                        
+                    <label for="no">No.</label>
+                    <input id="no" type="radio" value="no" name="likeness">
+                        
+                    <label for="maybe">Maybe...</label>
+                    <input id="maybe" type="radio" value="maybe" name="likeness"><br>
 
-    <!-- facts: create an unordered list of facts with no left padding, with a heading above facts on left side  -->
-
-    <!-- Forms in order "name, email, message", the forms are in a div that is outlined in a black box, the heading "contact to learn more" is outside the box on the top left -->
-
-    <!-- footer: copywright in bottom right -->
+                    <div class="button">
+                        <input id="send" type="button" value="send">  
+                    </div>          
+                    </form>
+            </article>
+        </main>
+<!-- footer: copywright in bottom right -->
+        <footer>
+            <p> &#169; RedPanda.</p>
+        </footer>
+    </div>    
 </body>
+<!-- put in comments when/where "clear" in css is used for the float styling-->
 </html>

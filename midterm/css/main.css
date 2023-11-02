@@ -1,5 +1,5 @@
 /* Basic Css styling layout and defaults for page */
-
+        /* This Css is used as a large basic/default layout that the CSS will be referring from */
 html {
     font-size: 16px;
 }
@@ -34,22 +34,15 @@ main {
 }
 
 /* Css Styling for header section */
+        /* Position image within wrapper, and position h1 ontop of image */
 
 .headerstage {
-    width: 100%;
-    height: 500px;
     position: relative;
-    overflow: hidden;
 }
 
 .redpand1 {
-    /* object-fit: cover; */
-    /* object-position: 50% 50% ; */
-    /* height: 300px; */
-    /* overflow: hidden; */
     position: relative;
     max-width: 200px;
-    margin: auto;
     background-color: brown;
 }
 
@@ -63,14 +56,12 @@ img {
     position: absolute;
     top: 40%;
     width: 100%;
-        /* text-align: center; */
-        text-align: left;  
-        padding-left: 5%;
+    text-align: center;
     color: rgb(229, 248, 252);
 }
 
 /* Css styling for navigation bar within header */
-
+        /* Display the UL and list items into an inline block and add a right border to create seperation lines, center words */
 nav {
     position: relative;
     width: 100%;
@@ -86,8 +77,8 @@ nav li {
     border-right: 1px solid black;
 }
 
-/* Css styling for image and main article under nav bar */
-
+/* Css styling for image and the main article under nav bar */
+        /* Float image over ontop left side of wrapper with margin around it */
 article img {
     width: max-content;
     height: auto;
@@ -101,7 +92,7 @@ article img {
     margin-right: 10px;
     padding: 0px 10px 10px 0px;
 }
-
+        /* add "clearfix" class and CSS syntax to the floated image to allow text to wrap around image on top */
 .clearfix::after {
     content: "";
     display: block;
@@ -109,14 +100,14 @@ article img {
 }
 
 /* list section */
-
+        /* Delete the "list-style-none" syntax from the CSS Reset page to use deafult list settings for this list, Position ul so that the default bullet points lay within rapper */
 main ul {
     padding-left: 2.5%;
 }
 
 
 /* form box css */
-
+        /* Create div and class to the forms section of HTML to add a border to create the visual box on page, add padding to create space between form box and the wrapper's side */
 .formbox {
     border: 1px solid black;
     padding: 2.5% 1.5%;
@@ -136,12 +127,13 @@ form p {
     margin: 1.5% 0%;
 }
 
+        /* use Button class to specifically leave the Send Buttun as default */
 .button {
     margin: 1.5% 0%;
 }
 
 /* footer */
-
+        /* move copywright tag to far right of wrapper with padding */
 footer {
     text-align: right;
     padding: 4%;

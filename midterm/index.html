@@ -7,16 +7,16 @@
     <link href="css/main.css" rel="stylesheet">
     <title>cros0247-Midterm</title>
 </head>
-<!-- Whole webpage has margins on the left and right learend in week 6, to center the webpage into the center of page -->
+<!--  Create margins on the left and right of the page by containing the body within a class called "wrapper", set width of rapper to be % of page and set margins to auto use remaining % of sides  -->
 <body>
     <div class="wrapper"> 
-<!-- Header of webpage, title is layered ontop of picture of topic, centered at the lower portion of image   -->
-<!-- nav buttons in a row of a table for "HOME STORY CONTACT", nav is directly under the header of webpage  -->
+        <!-- In header of webpage, the h1 title is layered ontop of image of topic using CSS syntax {Positioning}  -->
         <header>
             <div class="headerstage">
                 <img class="redpanda1" src="images/redpanda1.jpg" alt="Red Panda">
-                <h1 class="sitetitle">The Red<br>Panda</h1>
+                <h1 class="sitetitle">The Red <br> Panda </h1>
             </div>
+            <!-- list items converted into a table for nav buttons,"HOME, STORY, CONTACT", nav is directly under the header,-->
             <nav>
                 <ul>
                     <li>HOME</li>
@@ -25,16 +25,17 @@
                 </ul>
             </nav>
         </header>
-<!-- Article of topic with an intext image of topic on left side, heading of article directly above picture on left side-->
+        <!-- Article of Red Panda with an intext image of a Red Panda on left side, heading of article directly above picture on left side-->
         <main>
             <article>
                 <h2> Life of a Red Panda</h2>
+                <!-- using the floating and clear CSS syntax styling and classes, float image on left side and wrap text around image -->
                 <div class="float clearfix">
                     <img src="images/redopand2.jpg" alt="Red Panda 2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laudantium corrupti ratione fuga, nihil consequuntur voluptatum eius, saepe atque minima id suscipit laborum culpa qui illo modi totam et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsa exercitationem sapiente autem vitae, itaque aliquid, earum eaque voluptates ducimus veritatis consectetur assumenda error a officiis atque hic! Ratione, hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus ea quae error quibusdam delectus optio magnam vitae exercitationem libero. Nesciunt quia saepe ullam vel repellat aut in est necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas vero ut obcaecati ipsam, cum eaque recusandae perspiciatis labore voluptatem esse temporibus dolorum aliquam quibusdam ab accusantium impedit! Repellendus, eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos temporibus, incidunt esse doloribus ullam libero quod ipsum tempora quae. Ut provident sunt delectus tempore dignissimos? Molestias libero aspernatur beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis libero perferendis architecto voluptas impedit iure, ut cum totam nemo debitis numquam omnis quis odit, eos, est eligendi id laboriosam beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat eum, dolorem commodi alias, a aliquam similique quae quisquam magnam reiciendis nihil tenetur modi! Nisi in dignissimos libero porro perspiciatis?  </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laudantium corrupti ratione fuga, nihil consequuntur voluptatum eius, saepe atque minima id suscipit laborum culpa qui illo modi totam et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsa exercitationem sapiente autem vitae, itaque aliquid, earum eaque voluptates ducimus veritatis consectetur assumenda error a officiis atque hic! Ratione, hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus ea quae error quibusdam delectus optio magnam vitae exercitationem libero. Nesciunt quia saepe ullam vel repellat aut in est necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas vero ut obcaecati ipsam, cum eaque recusandae perspiciatis labore voluptatem esse temporibus dolorum aliquam quibusdam ab accusantium impedit! Repellendus, eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos temporibus, incidunt esse doloribus ullam libero quod ipsum tempora quae. Ut provident sunt delectus tempore dignissimos? Molestias libero aspernatur beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis libero perferendis architecto voluptas impedit iure, ut cum totam nemo debitis numquam omnis quis odit, eos, est eligendi id laboriosam beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat eum, dolorem commodi alias, a aliquam similique quae quisquam magnam reiciendis nihil tenetur modi! Nisi in dignissimos libero porro perspiciatis?   </p>
                 </div>
             </article>
-<!-- facts: create an unordered list of facts with no left padding, with a heading above facts on left side  -->
+            <!-- facts: create an unordered list of facts with left padding, and bullet points, with a heading above facts on left side  -->
             <article>
                 <h3>Facts About Red Pandas</h3>
                 <ul>
@@ -44,7 +45,7 @@
                     <li>They are small</li>
                 </ul>
             </article>
-<!-- Forms in order "name, email, message", the forms are in a div that is outlined in a black box, the heading "contact to learn more" is outside the box on the top left -->
+            <!-- Forms in order "name, email, message", the forms are in a div that is outlined in a black box, the heading "contact to learn more" is outside the box on the top left -->
             <article>
                 <h3>Contact to Learn More</h3>
                 <form action="info.html" method="post" class="formbox">
@@ -58,7 +59,7 @@
                         <label for="message">Message:</label><br>
                         <textarea name="message" id="message"></textarea><br> 
                     </div>
-
+                    <!-- Add radio type buttons for question  -->
                     <p>Would you pet a Red Panda?</p>
                     <label for="yes">Yes!</label>
                     <input id="yes" type="radio" value="yes" name="likeness">
@@ -69,17 +70,17 @@
                     <label for="maybe">Maybe...</label>
                     <input id="maybe" type="radio" value="maybe" name="likeness"><br>
 
+                    <!-- seperate "send" button by creating a button class, so CSS doesnt overwrite its style-->
                     <div class="button">
                         <input id="send" type="button" value="send">  
                     </div>          
                     </form>
             </article>
         </main>
-<!-- footer: copywright in bottom right -->
+<!-- footer: copywright in bottom right with margins on top and bottm --> 
         <footer>
             <p> &#169; RedPanda.</p>
         </footer>
     </div>    
 </body>
-<!-- put in comments when/where "clear" in css is used for the float styling-->
 </html>

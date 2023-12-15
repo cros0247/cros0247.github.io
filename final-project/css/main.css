@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+body {
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0rem 0.5rem 0rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1.5rem 0rem 1rem 0rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0.5rem 0rem 0.2rem 0rem;
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0rem 0.5rem;
+}
+
+.wrapper2 {
+    padding: 0.5rem;
+}
+
+/* --------Logo Header-------- */
+
+.header {
+    background-color: #222;
+    padding: 0.5rem;
+}
+
+.logo {
+    background-color: #c68d00;
+}
+
+/* -------Nav---------- */
+
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    color: #c68d00;
+    text-align: center;
+    padding: 1rem 0rem;   
+} 
+
+.nav a:hover, .nav a:focus {
+    background-color: #c68d00;
+    color: #222;
+}
+
+/* -------Nav Search--------- */
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+}
+
+.searchbar {
+    flex-grow: 1;
+}
+
+.searchbtn {
+    color: #c68d00;
+    border: 1px solid #c68d00;
+    align-items: right;
+}
+
+/* -------Titie----------- */
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    width: 100%;
+    height: auto;
+}
+
+.titlebox {
+    position: absolute;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.yellowbtn {
+    background-color: #c68d00;
+    width: fit-content;
+    padding: 1rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.yellowbtn .arrow {
+    color: #222;
+    font-size: 35px;
+}
+
+.yellowbtn a {
+    text-decoration: none;
+    color: #222;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* ---------About Us---------- */
+
+#about-us {
+    background-color: #ffe6ac;
+    padding: 0.5rem 0rem;
+}
+
+#about-us img {
+    width: 100%;
+    height: auto;
+}
+
+/* ----------Service Cards--------- */
+
+#services {
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.card1 {
+    background-color: #ffe6ac;
+    margin: 1rem 0rem;
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+}
+
+.blackbtn {
+    background-color: #222;
+    width: fit-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.blackbtn a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.blackbtn .arrow {
+    color: white;
+    font-size: 35px;
+}
+
+/* ---------Our Vision----------- */
+
+.card2 img {
+    width: 100%;
+    height: 200px;
+}
+
+.card2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2txt {
+    position: absolute;
+    color: white;
+    padding: 0.5rem;
+}
+
+.bluebtn {
+    background-color: #222;
+    width: fit-content;
+    padding: 1rem;
+    border: 1px solid #c68d00;
+    display: flex;
+    align-items: center;
+}
+
+.bluebtn a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.bluebtn .arrow {
+    color: white;
+    font-size: 35px;
+}
+
+/* -----------Our Team---------- */
+
+.our-team {
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.card3 {
+    position: relative;
+    background-color: #ffe6ac;
+    margin-bottom: 1rem;
+}
+
+.card3 h4 {
+    border-bottom: 3px solid #c68d00;
+}
+
+.card3 img {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------Contact Us---------- */
+
+#contact-us h2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#fullname {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#message {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: #222;
+    width: fit-content;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: #c68d00;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+/* ---------Hours of Operation----------- */
+
+.hoo {
+    margin-bottom: 1rem;
+}
+
+.table {
+    width: 100%;
+}
+
+td {
+    border: 2px solid #222;
+    padding: 1rem;
+}
+
+.table-headings {
+    background-color: #ffe6ac;
+    text-align: center;
+}
+
+/* --------Map--------- */
+
+.location {
+    margin: 1.5rem 0rem 1rem 0rem;
+}
+
+.map {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* ------Footer--------- */
+
+footer {
+    background-color: #222;
+    color: #c68d00;
+    padding: 1.5rem 0.5rem 0.1rem 0.5rem;
+}
+
+/* ----------MEDIA QUIRES -> TO DESKTOP---------------- */
+
+/* 
+TO DO LIST
+7. Need to use a flexbox somewhere 
+8. Media Quires
+9. Desktop version
+*/
+

@@ -6,17 +6,17 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Cros0247 Final</title> 
+    <title>Cros0247 Final</title>
 </head>
 
 <body>
-  <header class="header">
+  <header class="header wrapper">
     <!-- image/icon/logo left side, background color orange, padding/margin outside of wrapper -->
-    <div class="logo wrapper">
+    <div class="logo">
         <img src="images/logo.png" alt="Logo">
     </div>
     <!-- list items have a hover turns orange and text turns black, a hover state that inverses the colours -->
-    <nav class="wrapper nav"> 
+    <nav class="nav"> 
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about-us">About Us</a></li>
@@ -26,7 +26,7 @@
       </ul>   
     </nav>
       <!-- searchbar with icon embeded on the right of search bar, margin around search bar and icon -->    
-    <div class="wrapper search">
+    <div class="search">
       <input class="searchbar" type="text" placeholder="Search">
       <span class="material-icons searchbtn">search</span>
     </div>  
@@ -43,10 +43,9 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
             <div class="yellowbtn">
               <a href="#">Conect with us</a>
-              <span class="material-icons">arrow_right</span>
+              <span class="material-icons arrow">arrow_right</span>
             </div>  
           </div>    
-
     </section>
 
 <!-- About Us -->
@@ -54,7 +53,7 @@
 <!-- img has margin/padding within article box, plus bigger margin at bottom of img, everything fist in wrapper, yellow box has different size  -->
 
     <article id="about-us">
-      <div class="about-us">
+      <div class="wrapper">
         <img src="images/about-us.jpg" alt="ping pong table">
         <h2>About Us</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>  
@@ -71,55 +70,67 @@
   <section class="wrapper services">
     <article class="card1">
       <img src="images/digital.jpg" alt="digital background img">
-      <h3>Digital Transformation</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
-      <div class="blackbtn">
-        <a class="btn" href="#">Digital Plans</a>
-        <span class="material-icons arrow">arrow_right</span>
-      </div>
+      <div class="wrapper2">
+        <h3>Digital Transformation</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+        <div class="blackbtn">
+          <a class="btn" href="#">Digital Plans</a>
+          <span class="material-icons arrow">arrow_right</span>
+       </div>
+      </div>  
     </article>
 
 <!-- Marketing -->
     <article class="card1">
       <img src="images/marketing.jpg" alt="marketing background img">
-      <h3>Welcome to Three Star Media</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
-      <div class="blackbtn">
-        <a class="btn" href="#">Marketing Plans</a>
-        <span class="material-icons arrow">arrow_right</span>
+      <div class="wrapper2">  
+        <h3>Marketing</h3>      
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+        <div class="blackbtn">
+          <a class="btn" href="#">Marketing Plans</a>
+          <span class="material-icons arrow">arrow_right</span>
+        </div> 
       </div>
+
     </article>
 
 <!-- Video Production -->
     <article class="card1">
       <img src="images/video.jpg" alt="video background img">
-      <h3>Video Production</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
-      <div class="blackbtn">
-        <a class="btn" href="#">Video Plans</a>
-        <span class="material-icons arrow">arrow_right</span>
+      <div class="wrapper2">
+        <h3>Video Production</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+        <div class="blackbtn">
+          <a class="btn" href="#">Video Plans</a>
+          <span class="material-icons arrow">arrow_right</span>
+        </div>        
       </div>
     </article>
 
 <!-- Web Development -->
     <article class="card1">
       <img src="images/web.jpg" alt="web background img">
-      <h3>Web Development</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
-      <div class="blackbtn">
-        <a class="btn" href="#">Web Plans</a>
-        <span class="material-icons arrow">arrow_right</span>
+      <div class="wrapper2"> 
+        <h3>Web Development</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+        <div class="blackbtn">
+          <a class="btn" href="#">Web Plans</a>
+          <span class="material-icons arrow">arrow_right</span>
+        </div>        
       </div>
+
     </article>
     
 <!-- Print -->
     <article class="card1">
       <img src="images/print.jpg" alt="print background img">
-      <h3>Print</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
-      <div class="blackbtn">
-        <a class="btn" href="#">Print Plans</a>
-        <span class="material-icons arrow">arrow_right</span>
+      <div class="wrapper2">
+        <h3>Print</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+        <div class="blackbtn">
+          <a class="btn" href="#">Print Plans</a>
+          <span class="material-icons arrow">arrow_right</span>
+        </div>        
       </div>
     </article>    
   </section>
@@ -130,11 +141,13 @@
 
     <section class="card2">
       <img src="images/vision.jpg" alt="vision background img">
-      <h3>Our Vision</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
-      <div class="bluetbn">
-        <a class="btn" href="#">Learn More</a>
-        <span class="material-icons arrow2">arrow_right</span>        
+      <div class="card2txt">
+        <h3>Our Vision</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+        <div class="bluebtn">
+          <a class="btn" href="#">Learn More</a>
+          <span class="material-icons arrow">arrow_right</span>        
+        </div>
       </div>
     </section>    
 
@@ -144,20 +157,24 @@
 <!-- Team card3 img span full width of card, text ftis withing wrapper, sub-heading has a bottom border solid line the same yellow as header -->
 
 <!-- John Doe -->
-  <section class="wrapper team"> 
+  <section class="wrapper"> 
     <article class="card3">
       <img src="images/john.jpg" alt="Picture of John Doe">
-      <h3>John Doe</h3>
-      <h4>CEO and Co-owner</h4>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+      <div class="wrapper2">
+        <h3>John Doe</h3>
+        <h4>CEO and Co-owner</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+      </div>
     </article>
 
 <!-- Bob Rite -->
     <article class="card3">
       <img src="images/bob.jpg" alt="Picture of Bob Rite">
-      <h3>Bob Rite</h3>
-      <h4>CFO and Co-owner</h4>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+      <div class="wrapper2">
+        <h3>Bob Rite</h3>
+        <h4>CFO and Co-owner</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis sed architecto veritatis, ipsa nihil debitis repudiandae eos dolorem alias doloremque possimus esse quod distinctio quam voluptas vitae qui ut!</p>
+      </div>
     </article>
   </section>
 
@@ -165,30 +182,30 @@
 
 <!-- Contact section all fits withing max-width, with custom button for "send", all text areas span full width -->
 
-    <section id="contact-us">
+    <section id="contact-us" class="wrapper">
       <h2>Contact Us</h2>
       <h3>Send Us a Message</h3> 
-      <form action="info.html" method="post" class="formbox">
+      <form action="info.html" method="post">
         <div class="forms">
-            <label for="fullname">Name:</label><br>
+            <label for="fullname">Name</label><br>
             <input id="fullname" type="text" name="fullname"><br>
 
-            <label for="email">Email:</label><br>
+            <label for="email">Email</label><br>
             <input id="email" type="email"><br>
 
-            <label for="message">Message:</label><br>
+            <label for="message">Message</label><br>
             <textarea name="message" id="message"></textarea><br> 
 
             <div class="button">
-              <input id="send" type="button" value="send">  
-            </div> 
+              <a class="btn" href="#">Send</a>     
+            </div>
         </div>
       </form>  
     </section>
 
 <!-- Hours of Operation -->
-    <section class="HoO">
-      <h3>Hours of Operation</h3>
+    <section class="wrapper">
+      <h3 class="hoo">Hours of Operation</h3>
       <table class="table">
         <tr class="table-headings">
           <td>Days</td>
@@ -206,14 +223,14 @@
     </section>   
 
 <!-- Location -->
-    <section class="map">
-      <h3>Location</h3>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11216.580446922877!2d-75.77329870256555!3d45.34588292430597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701315744190!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="wrapper">
+      <h3 class="location">Location</h3>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11216.580446922877!2d-75.77329870256555!3d45.34588292430597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701315744190!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>     
   </main>  
 
 <!-- Footer -->
-  <footer class="footer">
+  <footer>
     <p> &#169; Copywright Three Star Media, 2020 </p>
     <p>All images are taken from Unslaph</p>
   </footer>
